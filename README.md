@@ -19,7 +19,7 @@ The following settings determine the plugin's behavior:
 | **isHelmChart** | No | Specify whether the given path is a Helm chart. If this option is unused, the path will be considered as a regular yaml file. |
 | **helmArguments** | No | The Helm arguments to be used, if the path is a Helm chart. |
 | **isKustomization** | No | Specify whether the given path is a directory containing a "kustomization.yaml" file. If this option is unused, the path will be considered as a regular yaml file. |
-| **kustomizeArguments** | No | The Kustomize arguments to be used, if the path is a Kustomization directory |  
+| **kustomizeArguments** | No | The Kustomize arguments to be used, if the path is a Kustomization directory. |  
 
 *For more information and examples of using this plugin with Helm/Kustomize, see below*
 
